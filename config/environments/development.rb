@@ -26,4 +26,10 @@ MyEtsydemo::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+
+  # Devise `Getting started'
+  # Next, you need to set up the default URL options for the Devise mailer in each environment. 
+  # Here is a possible configuration for config/environments/development.rb:
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
 end
